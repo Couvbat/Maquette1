@@ -20,6 +20,14 @@ header {
     --bs-gutter-x: -9.5rem;
 }
 
+.pt-5 {
+    padding-top: 7%!important;
+}
+
+.pb-5 {
+    padding-b: 7%!important;
+}
+
 #ds {
     font-size: 100px;
     line-height: 100px;

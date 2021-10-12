@@ -1,0 +1,73 @@
+body{
+
+background-image:url(../maquettes/burger.png);
+color:#ffe4b5;
+background-repeat:no-repeat;
+background-size: 100%;
+}
+
+.menu{
+
+font-size: 25px;
+
+}    
+
+
+#starter{
+
+font-size: 55px !important;
+
+}
+#specialite{
+
+font-size: 55px;
+
+}
+
+#specialite{
+
+font-size:55px;
+
+
+}
+
+#Drinks{
+
+    font-size:55px;  
+}   
+
+.text-uppercase{
+
+text-align: center;
+font-size: 200%;
+}
+
+.align-items-lg-center{
+
+color:#ffe4b5; 
+text-align: center;
+    
+}
+
+
+.text-center{
+
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

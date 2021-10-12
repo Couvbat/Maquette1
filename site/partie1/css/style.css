@@ -1,0 +1,36 @@
+* {
+    overflow: hidden;
+}
+
+header {
+	background-image: url("../img-group1/background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#coin_gauche {
+    margin: 1.8% 0 0 1%;
+}
+
+#coin_droit {
+    margin: 1.8% 1% 0 0;
+}
+
+.row {
+    --bs-gutter-x: -9.5rem;
+}
+
+#ds {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+#restaurant {
+}
+
+.text-ds {
+    color: #ffe4b5;
+    font-size: 2.1em;
+    margin-bottom: 0rem;
+    line-height: 3rem;
+}

@@ -1,0 +1,27 @@
+#overhidden{
+    overflow: hidden;
+}
+
+#noodle{
+    background-image: url(../rsc/noodles.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.txt{
+    color: #ffe4b5;
+}
+
+hr{
+    height: 4px !important;
+    color: #ffe4b5;
+}
+
+#mbottom{
+    margin-bottom: 33%;
+}
+
+section{
+    background-color: black;
+}

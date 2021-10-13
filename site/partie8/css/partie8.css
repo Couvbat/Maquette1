@@ -1,6 +1,57 @@
-.body{
+.discount{
+
+text-align: center;
+color: antiquewhite;
+font-size: 380%;
+
+
+}
+
+#offer{
 
 background-image: url(../maquettes/burger2.png);
+background-repeat: no-repeat;
+background-position: 50% 0%;
+
+}
+
+
+.multiple{
+
+text-align: center;
+color:#ffe4b5;
+font-size: 360%;
+
+
+
+}
+
+
+hr{
+    color:#ffe4b5;
+    height: 2px !important;
+    opacity: 1;
+    margin: 0;
+}
+
+.space1{
+    height: 410px;
+
+}
+
+
+.space2{
+
+   hright
+
+}
+
+
+.lorem{
+
+text-align: center;
+color: antiquewhite;
+font-size: 360%;
 
 }
 
@@ -8,7 +59,17 @@ background-image: url(../maquettes/burger2.png);
 
 
 
-.align-items-lg-center{
 
 
-}
+
+
+
+
+   
+
+
+
+
+
+
+

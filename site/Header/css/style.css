@@ -1,19 +1,15 @@
-* {
-    overflow: hidden;
-}
-
 header {
-	background-image: url("../img-group1/background.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
+    background-image: url("../img-group1/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #coin_gauche {
-    margin: 1.8% 0 0 1%;
+    margin: 2% 0 0 1.2%;
 }
 
 #coin_droit {
-    margin: 1.8% 1% 0 0;
+    margin: 2% 1.2% 0 0;
 }
 
 .row {
@@ -21,11 +17,11 @@ header {
 }
 
 .pt-5 {
-    padding-top: 7%!important;
+    padding-top: 7.1%!important;
 }
 
 .pb-5 {
-    padding-b: 7%!important;
+    padding-bottom: 7.1%!important;
 }
 
 #ds {
@@ -33,12 +29,17 @@ header {
     line-height: 100px;
 }
 
-#restaurant {
-}
 
 .text-ds {
     color: #ffe4b5;
     font-size: 2.1em;
     margin-bottom: 0rem;
     line-height: 3rem;
+}
+.mb-6 {
+    margin-bottom: 10% !important;
+}
+
+.mt-6 {
+    margin-top: 10% !important;
 }

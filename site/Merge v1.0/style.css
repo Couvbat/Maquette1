@@ -55,7 +55,7 @@ hr{
     margin: 0;
 }
 
-        /* text fonts */
+        /* Fonts */
 .txt{
     font-size: 2em;
     color: #ffe4b5;
@@ -92,3 +92,29 @@ hr{
 
 
 /* responsive media quaries */
+
+@media all and (max-width: 900px){
+
+#part1{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg2.png);
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+}
+
+        /* Fonts */
+.RespNav{
+    font-size: 1.5em !important;
+}
+
+#spchef{
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#chef{
+    font-weight: 500 !important;
+}
+
+}

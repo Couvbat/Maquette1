@@ -9,7 +9,7 @@
 
 #we{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
-    linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
                         url(rsc/bg1.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -21,6 +21,14 @@
                         url(rsc/bg2.png);
     background-repeat: no-repeat;
     background-position: 60% 0%;
+}
+
+#part3{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
 }
 
         /* Spacers */
@@ -62,7 +70,7 @@ hr{
     text-decoration: none !important;
     margin-bottom: 0; 
 }
-
+/* header */
 .navf{
     font-size: 2.5em !important;
 }
@@ -75,7 +83,7 @@ hr{
 #REST{
     font-size: 1.75em;
 }
-
+/* part1 */
 #spchef{
     font-size: 3em;
     font-weight: 100;
@@ -88,6 +96,11 @@ hr{
 #delights {
     font-size: 2em;
     font-weight: 100;
+}
+/* part3 */
+#menu{
+    font-size: 3em;
+    font-weight: 600;
 }
 
 
@@ -116,5 +129,6 @@ hr{
 #chef{
     font-weight: 500 !important;
 }
+
 
 }

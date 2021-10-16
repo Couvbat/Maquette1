@@ -1,0 +1,245 @@
+        /* Background img */
+.BlckOverlay{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#we{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(header.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#part1{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg1.png);
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+}
+
+#part2{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#part3{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 23%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 77%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#part4{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 17%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#part5{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+#part6{
+    background:   url(bg6.png),
+                        #000;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+}
+#part7{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(bg7.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+        /* Spacers */
+#logo{
+    height: 20em !important;
+}
+
+.space1{
+    height: 32em;
+}
+
+.space2{
+    height: 12em;
+}
+
+.space3{
+    height: 7em;
+}
+
+.space4{
+    height: 4em;
+}
+
+.space5{
+    height: 4em;
+}
+
+.space6{
+    height: 26em;
+}
+
+.space9{
+    height: 50em;
+}
+.space10{
+    height: 11em;
+}
+.space11{
+    height: 25em;
+}
+.space20{
+    height: 12em;
+}
+.space21{
+    height: 20em;
+}
+.space22{
+    height: 18em;
+}
+.spacex{
+    height: 22em;
+}
+
+        /* Fonts */
+.color{
+    border-color: #ffe4b5 !important;
+}
+
+.txt{
+    font-size: 2em;
+    color: #ffe4b5 !important;
+    text-decoration: none !important;
+    margin-bottom: 0; 
+}
+/* header */
+.navf{
+    font-size: 2.5em !important;
+}
+
+#DS {
+    font-size: 10em;
+    line-height: 1em;
+}
+
+#REST{
+    font-size: 1.75em;
+}
+/* part1 */
+#spchef{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#chef{
+    font-weight: 500 !important;
+}
+
+#delights {
+    font-size: 2em;
+    font-weight: 100;
+}
+/* part2 */
+#deli{
+    font-size: 3em;
+    font-weight: 400;
+}
+#phone{
+    font-size: 4em;
+    font-weight: 500;
+}
+#desc2{
+    font-size: 1em;
+
+}
+/* part3 */
+#menu{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* part4 */
+#num{
+    font-size: 8em;
+    font-weight: 500;
+}
+#disc{
+    font-size: 4em;
+    font-weight: 500;
+}
+#lor{
+    font-size: 2em;
+    font-weight: 400;
+}
+/* part5 */
+#oflor{
+    font-size: 1em;
+    font-weight: 300;
+}
+#offer{
+    font-size: 4em;
+    font-weight: 300;
+}
+#burger{
+    font-size: 4em;
+    font-weight: 400;
+}
+#prctoff{
+    font-size: 4em;
+    font-weight: 500;
+}
+}
+/* part7 */
+#prct{
+    font-size: 5em;
+    font-weight: 500;
+    line-height: 1em;
+}
+#disc2{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+/* responsive media quaries */
+
+@media all and (max-width: 900px){
+
+#part1{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url( bg2.png);
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+}
+
+        /* Fonts */
+.RespNav{
+    font-size: 1.5em !important;
+}
+
+#spchef{
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#chef{
+    font-weight: 500 !important;
+}
+
+
+}

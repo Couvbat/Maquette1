@@ -31,6 +31,21 @@
     background-position: 50% 0%;
 }
 
+#part4{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 17%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+#part7{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 22%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg7.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
         /* Spacers */
 #logo{
     height: 20em !important;
@@ -55,17 +70,22 @@
 .space5{
     height: 4em;
 }
+.space6{
+    height: 50em;
+}
 
-.color{
-    color: #ffe4b5;
-    opacity: 1;
-    margin: 0;
+.spacex{
+    height: 22em;
 }
 
         /* Fonts */
+.color{
+    border-color: #ffe4b5 !important;
+}
+
 .txt{
     font-size: 2em;
-    color: #ffe4b5;
+    color: #ffe4b5 !important;
     text-decoration: none !important;
     margin-bottom: 0; 
 }
@@ -101,7 +121,28 @@
     font-size: 3em;
     font-weight: 600;
 }
-
+/* part4 */
+#num{
+    font-size: 8em;
+    font-weight: 500;
+}
+#disc{
+    font-size: 4em;
+    font-weight: 500;
+}
+#lor{
+    font-size: 2em;
+    font-weight: 400;
+}
+/* part7 */
+#prct{
+    font-size: 5em;
+    font-weight: 500;
+}
+#disc2{
+    font-size: 3em;
+    font-weight: 400;
+}
 
 /* responsive media quaries */
 

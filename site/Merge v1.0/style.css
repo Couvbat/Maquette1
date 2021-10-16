@@ -10,7 +10,7 @@
 #we{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
                         linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
-                        url(rsc/bg1.png);
+                        url(rsc/header.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
@@ -18,7 +18,7 @@
 #part1{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
                         linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
-                        url(rsc/bg2.png);
+                        url(rsc/bg1.png);
     background-repeat: no-repeat;
     background-position: 60% 0%;
 }
@@ -38,8 +38,15 @@
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
-#part7{
+#part6{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 22%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg6.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+#part7{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%),
                         linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
                         url(rsc/bg7.png);
     background-repeat: no-repeat;

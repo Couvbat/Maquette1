@@ -1,65 +1,37 @@
-body{
 
-background-image:url(../maquettes/burger.png);
-/* color:#ffe4b5; */
-background-repeat:no-repeat;
-background-size: 100%;
-}
+section{
 
-.couleur{
-    color: #ffe4b5;
-}
-
-.menu{
-
-font-size: 25px;
-
-}    
-
-
-#starter{
-
-font-size: 55px !important;
-
-}
-#specialite{
-
-font-size: 55px;
-
-}
-
-#specialite{
-
-font-size:55px;
-
-
-}
-
-#Drinks{
-
-    font-size:55px;  
-}   
-
-.text-uppercase{
-
-text-align: center;
-font-size: 200%;
-}
-
-.align-items-lg-center{
-
-/* color:#ffe4b5;  */
-text-align: center;
+    background-image: url(../partie6/css/bg5.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    background-position: 60%;
     
 }
 
 
-.text-center{
+hr{
 
-text-align: center;
+color: white;
+height: 2rem;
 
 }
 
+
+.txt{
+
+
+    color: blue;
+
+
+}
+
+.lorem{
+
+    color: blue;
+
+
+}
 
 
 

@@ -1,0 +1,24 @@
+section{
+    background-image: url(../partie5/css/bg4.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    background-position: 60%;
+}
+
+.txt {
+    text-align: center;
+}
+
+.multiple{
+    font-size: 200%;
+}
+
+.discount{
+    color:#ffe4b5;
+}
+
+.lorem {  
+    color: burlywood;
+} 
+   

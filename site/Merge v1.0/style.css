@@ -48,7 +48,7 @@
 }
 
 #part5{
-    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%),
                         linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
                         url(rsc/bg5.png);
     background-repeat: no-repeat;
@@ -101,7 +101,10 @@
 .space9{
     height: 50em;
 }
-#space10{
+.space10{
+    height: 11em;
+}
+.space11{
     height: 25em;
 }
 .space20{
@@ -186,6 +189,24 @@
 #lor{
     font-size: 2em;
     font-weight: 400;
+}
+/* part5 */
+#oflor{
+    font-size: 1em;
+    font-weight: 300;
+}
+#offer{
+    font-size: 4em;
+    font-weight: 300;
+}
+#burger{
+    font-size: 4em;
+    font-weight: 400;
+}
+#prctoff{
+    font-size: 4em;
+    font-weight: 500;
+}
 }
 /* part7 */
 #prct{

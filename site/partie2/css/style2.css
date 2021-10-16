@@ -1,0 +1,52 @@
+body {
+    background-color: #0c0c0c;
+}
+
+#part2 {
+    background:
+    url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 100%;
+}
+
+
+.text-ds {
+    color: #ffe4b5;
+    font-size: 2.1em;
+    margin-bottom: 0rem;
+    line-height: 3rem;
+}
+
+hr {
+    color: #ffe4b5; 
+    height: 2px !important; 
+    opacity: 1;
+}
+
+/* .mt-6 {
+    margin-top: 5%;
+} */
+
+.mt-7 {
+    margin-top: 5.5%;
+}
+
+.mt-8 {
+    margin-top: 24%;
+    margin-bottom: 13%;
+}
+
+#rect1 {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    height: 13%;
+}
+
+#rect2 {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    height: 33.5%;
+}

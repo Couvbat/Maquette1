@@ -2,15 +2,58 @@
     overflow: hidden;
 }
 
+        /* Background img */
 .BlckOverlay{
     background-color: rgba(0,0,0,0.5);
 }
 
 #we{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
                         url(rsc/bg1.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
+}
+
+#part1{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg2.png);
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+}
+
+#part3{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 15%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+        /* Spacers */
+#logo{
+    height: 20em !important;
+}
+
+.space1{
+    height: 32em;
+}
+
+.space2{
+    height: 12em;
+}
+
+.space3{
+    height: 7em;
+}
+
+.space4{
+    height: 4em;
+}
+
+.space5{
+    height: 4em;
 }
 
 hr{
@@ -20,20 +63,72 @@ hr{
     margin: 0;
 }
 
+        /* Fonts */
 .txt{
+    font-size: 2em;
     color: #ffe4b5;
     text-decoration: none !important;
-    margin-bottom: 0 !important; 
+    margin-bottom: 0; 
 }
-
-.space1{
-    height: 410px;
+/* header */
+.navf{
+    font-size: 2.5em !important;
 }
 
 #DS {
     font-size: 10em;
+    line-height: 1em;
 }
 
 #REST{
     font-size: 1.75em;
+}
+/* part1 */
+#spchef{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#chef{
+    font-weight: 500 !important;
+}
+
+#delights {
+    font-size: 2em;
+    font-weight: 100;
+}
+/* part3 */
+#menu{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+
+/* responsive media quaries */
+
+@media all and (max-width: 900px){
+
+#part1{
+    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 84%),
+                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
+                        url(rsc/bg2.png);
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+}
+
+        /* Fonts */
+.RespNav{
+    font-size: 1.5em !important;
+}
+
+#spchef{
+    font-size: 2em;
+    font-weight: 100;
+}
+
+#chef{
+    font-weight: 500 !important;
+}
+
+
 }

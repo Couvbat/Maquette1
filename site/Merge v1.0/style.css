@@ -56,11 +56,10 @@
 }
 
 #part6{
-    background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 22%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 82%, rgba(0,0,0,1) 100%),
-                        linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(0,0,0,1) 100%),
-                        url(rsc/bg6.png);
+    background:   url(rsc/bg6.png),
+                        #000;
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    background-position: 50% 25%;
 }
 #part7{
     background-image:   linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 75%, rgba(0,0,0,1) 100%),
@@ -102,7 +101,18 @@
 .space9{
     height: 50em;
 }
-
+#space10{
+    height: 25em;
+}
+.space20{
+    height: 12em;
+}
+.space21{
+    height: 20em;
+}
+.space22{
+    height: 18em;
+}
 .spacex{
     height: 22em;
 }
@@ -145,7 +155,19 @@
     font-size: 2em;
     font-weight: 100;
 }
+/* part2 */
+#deli{
+    font-size: 3em;
+    font-weight: 400;
+}
+#phone{
+    font-size: 4em;
+    font-weight: 500;
+}
+#desc2{
+    font-size: 1em;
 
+}
 /* part3 */
 #menu{
     font-size: 3em;
@@ -169,10 +191,11 @@
 #prct{
     font-size: 5em;
     font-weight: 500;
+    line-height: 1em;
 }
 #disc2{
     font-size: 3em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* responsive media quaries */
